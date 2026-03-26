@@ -6,7 +6,7 @@
 
 1. 저장소 clone
 ```bash
-git clone https://github.com/wnghks8898-cmd/skills.git
+git clone https://github.com/devora-99/skills.git
 cd skills
 ```
 
