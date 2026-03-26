@@ -2,10 +2,15 @@
 /gstack/
 
 # Exclude generated Windows binaries that exceed GitHub's 100 MB limit.
+.agents/skills/gstack/bin/gstack-global-discover
 .agents/skills/gstack/bin/*.exe
+.agents/skills/gstack/browse/dist/.version
+.agents/skills/gstack/browse/dist/bun-polyfill.cjs
+.agents/skills/gstack/browse/dist/server-node.mjs
 .agents/skills/gstack/browse/dist/*.exe
 .agents/skills/gstack/.agents/
 
 # Exclude install/build artifacts that can be recreated from setup.
 .agents/skills/gstack/node_modules/
+.agents/skills/gstack/bun.lock
 .agents/skills/gstack/bun.lockb
