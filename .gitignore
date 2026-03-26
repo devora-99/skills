@@ -1,0 +1,11 @@
+# Local clone of the upstream gstack source repo is not part of this project repo.
+/gstack/
+
+# Exclude generated Windows binaries that exceed GitHub's 100 MB limit.
+.agents/skills/gstack/bin/*.exe
+.agents/skills/gstack/browse/dist/*.exe
+.agents/skills/gstack/.agents/
+
+# Exclude install/build artifacts that can be recreated from setup.
+.agents/skills/gstack/node_modules/
+.agents/skills/gstack/bun.lockb
